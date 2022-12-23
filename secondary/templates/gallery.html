@@ -1,0 +1,69 @@
+{%extends 'layout2.html'%}
+{%load static%}
+{%block title%}
+    Trabajos
+{%endblock%}
+
+{%block content%}
+    <div class="grid-container">
+        <div class="navbar">
+            <ul>
+                <li><a href="{%url 'inicio'%}">Inicio</a></li>
+                <li><a href="{%url 'trabajos'%}">Trabajos</a></li>  
+            </ul>
+        </div>
+        <div class="main">
+            <div class="container">
+    
+                <div class="box">
+                    <div class="dream" data-aos="fade-up">
+                        <img src="{%static 'images/galeria/1.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom" >
+                        <img src="{%static 'images/galeria/2.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/3.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/4.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"> 
+                        <img src="{%static 'images/galeria/5.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                    </div>
+                    <div class="dream">
+                        <img src="{%static 'images/galeria/6.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/7.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/8.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/9.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/10.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                    </div>
+                    <div class="dream">
+                        <img src="{%static 'images/galeria/11.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/12.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/13.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/14.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <img src="{%static 'images/galeria/15.jpg'%}" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                    </div>
+                </div>
+                <div class="box-arrow" data-aos="fade-down">
+                    <span></span> 
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+        </div>
+    </div>
+    {%endblock%}  
+    

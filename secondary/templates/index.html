@@ -1,0 +1,55 @@
+{%extends 'layout2.html'%}
+{%load static%}
+{%block title%}
+    Inicio
+{%endblock%}
+    {%block content%}
+    
+    <div class="grid-container">
+        <div class="navbar">
+            <ul>
+                <li><a href="{%url 'inicio'%}">Inicio</a></li>
+                <li><a href="{%url 'trabajos'%}">Trabajos</a></li>  
+            </ul>
+        </div>
+        <div class="main" >
+            <div class="index-content">
+                <div class="index-title">
+                    <h1>AMOBLAMIENTOS</h1>
+                    <h1>&</h1>
+                    <h1>DECORACIONES</h1>
+                </div>
+                <div class="index-subtitle">
+                    <h2>Oscar Milanesio, trabajando para usted desde 1970.</h2>
+                    <h4>Dirección: 
+                        <a href="https://www.google.com/maps/place/Av.+Carabobo+1341,+C1406DHA+CABA/@-34.6402302,-58.4479473,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccbcc380d4419:0xf7f83eb56e90f30c!8m2!3d-34.6402302!4d-58.4479473">
+                            Av.Carabobo 1341
+                        </a>
+                    </h4>
+                    <ul>
+                        <li>Trabajos sobre planos</li>
+                        <li>A pedidos</li>
+                        <li>Propiedad Horizontal</li>
+                        <li>Locales Comerciales</li>
+                        <li>Franquicias</li>
+                    </ul>
+                </div>
+                <div  class="index-contact">
+                    <a href="https://wa.me/+5491149287229?"><img src="{%static 'images/social/whatsapp.png'%}">+54 9 11 4928-7229</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <!--
+        <div class="index-contact-social">
+            <ul>
+                <li>+54 9 11 4928-7229</li>
+                <img src="{%static 'images/social/whatsapp.png'%}" alt="whats-app">
+            </ul>
+        </div>
+        -->
+    {%endblock%}    
+
