@@ -4,7 +4,6 @@
     Inicio
 {%endblock%}
     {%block content%}
-    
     <div class="grid-container">
         <div class="navbar">
             <ul>
@@ -12,8 +11,8 @@
                 <li><a href="{%url 'trabajos'%}">Trabajos</a></li>  
             </ul>
         </div>
-        <div class="main" >
-            <div class="index-content">
+        <div class="main" style="background-image: url('{% static 'images/bg.jpg'%}');background-size: cover;background-color:#000;" >
+            <div class="index-content" style="background-color: rgba(0, 0, 0, 0.4);">
                 <div class="index-title">
                     <h1>AMOBLAMIENTOS</h1>
                     <h1>&</h1>
